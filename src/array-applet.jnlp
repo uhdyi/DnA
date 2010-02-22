@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+	<information>
+		<title>Array Demo</title>
+		<vendor>Dyihi</vendor>
+	</information>
+	<resources>
+		<!-- Application Resources -->
+		<j2se version="1.6+"
+			href="http://java.sun.com/products/autodl/j2se" />
+		<jar href="arrayApplet.jar" main="true" />
+	</resources>
+	<applet-desc
+		name="Array Applet"
+		main-class="com.dyihi.array.ArrayDemoApplet"
+		width="700"
+		height="400">
+	</applet-desc>
+	<update check="background" />
+</jnlp>			
